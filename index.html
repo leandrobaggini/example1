@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>Rafaela del Pasado</title>
+    <link rel = "icon" type = "image/png" href="favicon/web_cosmo.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel = "stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <style media = "screen">
+        @media (min-height: 800px){
+            #butt_inf{
+                margin-top: 40%;
+            }
+            #ubi_plaza{
+                top:26%;
+            }
+            #logos{
+                margin-top: 5%;
+            }
+            footer{
+                margin-top: 30%;
+            }     
+
+        }
+        @media(max-width:330px){
+            #ubi_plaza{
+                top:34%;
+            } 
+        }
+    
+    </style>
+    
+</head>
+<body>
+    <section id = "sectionMenu" >
+        <div class = "text-center mt-5"><img id = "titulo" src = "assets/img/Titulo.png" class="img-fluid" width="300"></div>
+        <div id = "butt_sup" class = "text-center mt-5">
+            <input id = "audioGuia" type = "button">
+        </div>
+        
+        <div class ="d-flex justify-content-center  mt-4 ml-3" id = "butt_mid">
+            <input id = "escaner" type = "button">
+            <input id = "config" type = "button">
+            <input id = "proceres" type = "button">
+        </div>
+        
+        <div class ="d-flex" id = "butt_inf">
+            <input id = "perfil" type = "button" >
+            <input id = "regalos" type = "button" >
+        </div>
+    </section>
+    
+    <section id = "sectionConfig">
+        <div id ="header">
+            <input class = "float-right m-2 " id = "exitConfig" type="button">
+            <br>
+            <h1 class = "text-center mt-5">CONFIGURACIÓN</h1>
+        </div>
+       
+        <div class = "text-center mt-5" id = "audio">
+            <h2>Sonidos</h2>
+            <input class ="m-5 " id ="sonidos" type="button">
+        </div>
+
+        <div id = "linksMuni" class = "text-center mt-3 "> 
+            <input class ="w-75 "id = "ayuda" type="button" >
+            <input class ="w-75" id = "privacidad" type="button">
+        </div>
+        
+        <div id = "logos" >
+            <img class="img-fluid w-50 ml-4"src = "assets/img/Logo_Raf.png">
+            <img id ="cosmo" class="img-fluid w-25 float-right mr-5 "src = "assets/img/logo_cosmo.png">
+        </div>
+
+        <footer class =" text-center">
+            <h4>Experiencia Realidad Aumentada Municipalidad De Rafaela</br>
+                Desarrollo - Cosmo Games S.A.S</h4>
+        </footer>
+    </section>
+
+    <section id ="sectionProc">
+        <div id ="header">
+            <input class = "float-left m-2" id = "camaraProc" type="button">
+            <input class = "float-right m-2" id = "exitProc" type="button">
+            <br>
+            <h1 class = "text-center mt-5">COLECCIONABLES</h1>
+        </div>
+        <table class = "m-4">
+            <tr>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+            </tr>
+            <tr>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+            </tr>
+            <tr>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+            </tr>
+            <tr>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+            </tr>
+            <tr>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+            </tr>
+            <tr>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+            </tr>
+            <tr>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+                <td><img class="img-fluid" src="./assets/img/Personajes.png" width="120"></td>
+            </tr>
+        </table>
+
+        <input class = "w-100 sticky-bottom" id ="fotosProc" type = "button" value = "Puedes tomarte fotos con tus coleccionables">      
+    </section>
+    
+    <section id ="sectionRegalos">
+        <div id ="header">
+            <input class = "float-right m-2 " id = "exitReg" type="button">
+            <br>
+            <h1 class = "text-center mt-5">REGALOS</h1>
+        </div>
+        <h2 class="text-center mt-4" id = "titulo_estac ">Estacionamiento</h2>
+        <table  class = "m-5 ">
+            <tr>
+                
+                <td><input type = "button" value ="15"></td>
+                <td><input type = "button" value ="30"></td>
+                <td><input type = "button" value ="60"></td>
+            </tr>
+            <tr>
+                <td><input type = "button" value ="90"></td>
+                <td><input type = "button" value ="120"></td>
+                <td><input type = "button" value ="DÍA"></td>
+            </tr>
+        </table>
+        <h3 id = "subtit_estac" class = "float-right">Valor expresado en minutos.</h3>
+        <br>
+        <h2 class="text-center mt-4" id = "titulo_sube">Recarga Sube</h2>
+        <table class = "m-5">
+            <tr>
+                <td><input type = "button" value ="1"></td>
+                <td><input type = "button" value ="2"></td>
+                <td><input type = "button" value ="4"></td>
+            </tr>
+            <tr>
+                <td><input type = "button" value ="7"></td>
+                <td><input type = "button" value ="14"></td>
+                <td><input type = "button" value ="30"></td>
+            </tr>
+        </table>
+        <h3 id = "subtit_sube" class = "float-right">Valor expresado en viajes.</h3>
+
+    </section>
+    
+    <section id ="sectionPerfil">
+        <div id ="header">
+            <input class = "float-right m-2 " id = "exitPerf" type="button">
+            <br>
+            <h1 class = "text-center mt-5">PERFIL</h1>
+        </div>
+    </section>
+
+    <section id = "sectionMapa">
+        <div id ="header">
+            <input class = "float-right m-2 " id = "exitMapa" type="button">
+            <br>
+            <h1 class = "text-center mt-5">ESCANEO EDIFICIOS</h1>
+        </div>   
+        <div class ="mt-3"id ="map"></div>     
+        <div id ="edificios">
+            <img class = "img-fluid mt-3" id = "cuadro" src ="assets/img/Cuadro.png">
+            <img class = "img-fluid" id ="scocirolli" src ="assets/img/img_scocciroli.png">
+            <input id = "volver" type="button" class="w-50 h-25">
+            <input id = "ver" type="button" class="w-50 h-25">
+
+        </div>
+        
+        <script>
+                var map;
+                var recova = {lat:  -31.253595, lng: -61.490739};
+                var avenida = {lat: -31.252731, lng: -61.490192};
+                var toscano = {lat: -31.253592, lng: -61.487008};
+                var scocirolli = {lat:-31.253277, lng: -61.488924};
+                var tienda = {lat: -31.253004, lng: -61.488626};
+                var jefatura = {lat: -31.253662,lng: -61.484777};
+                var mercado = {lat: -31.251868,lng: -61.485411};
+                var cine = {lat: -31.253475, lng:-61.485620};
+                var correo ={lat: -31.253323,lng: -61.488635};
+
+                function initMap() {
+                    map = new google.maps.Map(document.getElementById('map'), {
+                    center: {lat: -31.25302163, lng: -61.49013048},
+                    zoom: 17,
+                    styles: [
+                                {
+                                    "elementType": "geometry",
+                                    "stylers": [
+                                    {
+                                        "color": "#ebe3cd"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "elementType": "labels.text.fill",
+                                    "stylers": [
+                                    {
+                                        "color": "#523735"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "elementType": "labels.text.stroke",
+                                    "stylers": [
+                                    {
+                                        "color": "#f5f1e6"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "administrative",
+                                    "elementType": "geometry.stroke",
+                                    "stylers": [
+                                    {
+                                        "color": "#c9b2a6"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "administrative.land_parcel",
+                                    "elementType": "geometry.stroke",
+                                    "stylers": [
+                                    {
+                                        "color": "#dcd2be"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "administrative.land_parcel",
+                                    "elementType": "labels.text.fill",
+                                    "stylers": [
+                                    {
+                                        "color": "#ae9e90"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "landscape.natural",
+                                    "elementType": "geometry",
+                                    "stylers": [
+                                    {
+                                        "color": "#dfd2ae"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "landscape.natural.terrain",
+                                    "elementType": "geometry",
+                                    "stylers": [
+                                    {
+                                        "color": "#ffff00"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "poi",
+                                    "elementType": "geometry",
+                                    "stylers": [
+                                    {
+                                        "color": "#dfd2ae"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "poi",
+                                    "elementType": "labels.icon",
+                                    "stylers": [
+                                    {
+                                        "visibility": "off"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "poi",
+                                    "elementType": "labels.text",
+                                    "stylers": [
+                                    {
+                                        "visibility": "off"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "poi",
+                                    "elementType": "labels.text.fill",
+                                    "stylers": [
+                                    {
+                                        "color": "#93817c"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "poi.park",
+                                    "elementType": "geometry.fill",
+                                    "stylers": [
+                                    {
+                                        "color": "#a5b076"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "poi.park",
+                                    "elementType": "labels.text.fill",
+                                    "stylers": [
+                                    {
+                                        "color": "#447530"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "road",
+                                    "elementType": "geometry",
+                                    "stylers": [
+                                    {
+                                        "color": "#f5f1e6"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "road",
+                                    "elementType": "labels.icon",
+                                    "stylers": [
+                                    {
+                                        "visibility": "off"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "road.arterial",
+                                    "elementType": "geometry",
+                                    "stylers": [
+                                    {
+                                        "color": "#fdfcf8"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "road.highway",
+                                    "elementType": "geometry",
+                                    "stylers": [
+                                    {
+                                        "color": "#f8c967"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "road.highway",
+                                    "elementType": "geometry.fill",
+                                    "stylers": [
+                                    {
+                                        "color": "#ffffff"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "road.highway",
+                                    "elementType": "geometry.stroke",
+                                    "stylers": [
+                                    {
+                                        "color": "#ffffff"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "road.highway.controlled_access",
+                                    "elementType": "geometry",
+                                    "stylers": [
+                                    {
+                                        "color": "#e98d58"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "road.highway.controlled_access",
+                                    "elementType": "geometry.stroke",
+                                    "stylers": [
+                                    {
+                                        "color": "#db8555"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "road.local",
+                                    "elementType": "geometry.fill",
+                                    "stylers": [
+                                    {
+                                        "color": "#ffffff"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "road.local",
+                                    "elementType": "labels.text.fill",
+                                    "stylers": [
+                                    {
+                                        "color": "#806b63"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "transit",
+                                    "elementType": "labels.icon",
+                                    "stylers": [
+                                    {
+                                        "visibility": "off"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "transit.line",
+                                    "elementType": "geometry",
+                                    "stylers": [
+                                    {
+                                        "color": "#dfd2ae"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "transit.line",
+                                    "elementType": "labels.text.fill",
+                                    "stylers": [
+                                    {
+                                        "color": "#8f7d77"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "transit.line",
+                                    "elementType": "labels.text.stroke",
+                                    "stylers": [
+                                    {
+                                        "color": "#ebe3cd"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "transit.station",
+                                    "elementType": "geometry",
+                                    "stylers": [
+                                    {
+                                        "color": "#dfd2ae"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "water",
+                                    "elementType": "geometry.fill",
+                                    "stylers": [
+                                    {
+                                        "color": "#b9d3c2"
+                                    }
+                                    ]
+                                },
+                                {
+                                    "featureType": "water",
+                                    "elementType": "labels.text.fill",
+                                    "stylers": [
+                                    {
+                                        "color": "#92998d"
+                                    }
+                                    ]
+                                }
+                                ]
+                                                });
+            var marker =  new google.maps.Marker({position: recova, map: map});
+            var marker1 = new google.maps.Marker({position: avenida, map: map});
+            var marker2 = new google.maps.Marker({position: toscano, map: map});
+            var marker3 = new google.maps.Marker({position: scocirolli, map: map});
+            var marker4 = new google.maps.Marker({position: tienda, map: map});
+            var marker5 = new google.maps.Marker({position: jefatura, map: map});
+            var marker6 = new google.maps.Marker({position: mercado, map: map});
+            var marker7 = new google.maps.Marker({position: cine, map: map});
+            var marker8 = new google.maps.Marker({position: correo, map: map});
+            
+            
+            google.maps.event.addListener(marker, 'click', function() {
+                $("#edificios").toggle("slow");
+                $("#map").css({"opacity" : "0.2"})
+                
+            })
+            google.maps.event.addListener(marker1, 'click', function() {
+                $("#edificios").toggle("slow");
+                $("#map").css({"opacity" : "0.2"})
+            })
+            google.maps.event.addListener(marker2, 'click', function() {
+                $("#edificios").toggle("slow");
+                $("#map").css({"opacity" : "0.2"})
+                
+               
+            })
+            google.maps.event.addListener(marker3, 'click', function() {
+                $("#edificios").toggle("slow");
+                $("#map").css({"opacity" : "0.2"})
+                $("#scocirolli").css({"display" : "block"})
+            })
+            google.maps.event.addListener(marker4, 'click', function() {
+                $("#edificios").toggle("slow");
+                $("#map").css({"opacity" : "0.2"})
+            })
+            google.maps.event.addListener(marker5, 'click', function() {
+                $("#edificios").toggle("slow");
+                $("#map").css({"opacity" : "0.2"})
+            })
+            google.maps.event.addListener(marker6, 'click', function() {
+                $("#edificios").toggle("slow");
+                $("#map").css({"opacity" : "0.2"})
+            })
+            google.maps.event.addListener(marker7, 'click', function() {
+                $("#edificios").toggle("slow");
+                $("#map").css({"opacity" : "0.2"})
+            })
+            google.maps.event.addListener(marker8, 'click', function() {
+                $("#edificios").toggle("slow");
+                $("#map").css({"opacity" : "0.2"})
+            })
+        
+                
+            }
+        </script>
+                  
+    </section>
+    <section id ="sectionEscaner">
+        <div id ="header">
+            <input class = "float-right m-2 " id = "exitScan" type="button">
+            <br>
+            <h1 class = "text-center mt-5">ACA IRÍA LEHMANN</h1>
+        </div>   
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src = "assets/src/jquerys.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCN6BhxQ5NLJJMxv78eAGu1kIOFZRzW70&callback=initMap"
+    async defer></script>
+
+    <!--AIzaSyCCN6BhxQ5NLJJMxv78eAGu1kIOFZRzW70-->
+</body>
+</html>
